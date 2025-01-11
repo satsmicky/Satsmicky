@@ -43,6 +43,32 @@ const myFunction = function(){
 }
 
 
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 
+
+//***************Type of Memory******** *//
+
+// Stack memory: for premitive type data
+//Heap memory   : for non premitive data
+
+let myYoutubename = "satishmestry"
+let anothername = myYoutubename
+anothername = "satsmicky"
+
+// console.log(anothername);
+// console.log(myYoutubename);
+
+
+let userOne = {
+    email: "satish@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mestry2@google.com"
+
+console.log(userOne.email);
+
+console.log(userTwo.email);
 
